@@ -1,0 +1,23 @@
+[
+    {
+        "constant": false,
+        "inputs": [{"name": "description", "type": "string"}],
+        "name": "createTask",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [{"name": "taskId", "type": "uint256"}],
+        "name": "markTaskComplete",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "getTasks",
+        "outputs": [{"components": [{"name": "description", "type": "string"}, {"name": "isCompleted", "type": "bool"}], "type": "tuple[]"}],
+        "type": "function"
+    }
+]
